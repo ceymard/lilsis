@@ -6,10 +6,10 @@
     "version" : "0.0.1",
     "homepage" : "http://github.com/ravelsoft/lilsis",
     "repository" : {
-        "type": "hg", 
+        "type": "hg",
         "url": "https://github.com/ravelsoft/lilsis"
     },
-    "licenses" : [ {   
+    "licenses" : [ {
             "type" : "MIT",
             "url"  : "https://github.com/satyr/coco/raw/master/LICENSE"
         }
@@ -17,10 +17,11 @@
     "engines"     : {"node": ">= 0.6.0"},
     "directories" : { "lib" : "./lib"  },
     "main" : "./lib/main",
-     "dependencies" : { 
+     "dependencies" : {
         "optimist": "0.2.3",
         "streamline": "0.2.4",
         "node-ffi": "0.5.0",
+        "express": "2.5.8",
         "jinjs": "0.3.6"
      },
      "devDependencies" : {
